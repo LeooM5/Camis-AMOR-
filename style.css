@@ -84,6 +84,19 @@ figure img {
     grid-column: 4;
 }
 
+section {
+    display: flex;
+    margin-bottom: 8em;
+    justify-content: center;
+}
+
+section p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    width: 800px;
+    text-align: center;
+}
+
 /* FORM */
 
 form {
