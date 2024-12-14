@@ -42,7 +42,7 @@ h1 {
 h2 {
     color: white;
     position: absolute;
-    top: 85%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -54,7 +54,7 @@ h2 {
     font-size: 2em;
     color: white;
     position: absolute;
-    top: 35%;
+    top: 39%;
     left: 47.5%;
     transform: translate(-50%, -50%);
     z-index: 1;
@@ -63,7 +63,7 @@ h2 {
 
 .centralizar {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -142,7 +142,7 @@ h2 {
         text-align: center;
         left: auto;
         width: 95dvw;
-        top: 40%;
+        top: 30%;
     }
 
     header {
@@ -154,6 +154,11 @@ h2 {
 
     h2 {
         width: 100dvw;
+        top: 55%;
+    }
+
+    .centralizar {
+        top: 40%;
     }
 
 } 
