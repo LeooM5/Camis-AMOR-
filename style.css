@@ -109,7 +109,7 @@ form {
 form input {
     font-weight: bolder;
     font-style: italic;
-    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     letter-spacing: 5px;
     font-size: 1.2em;
     background-color: red;
@@ -172,4 +172,73 @@ form p {
     100% {
         transform: translateX(-100%);
     }
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 850px) {
+    figure {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        height: auto;
+        margin-bottom: 3em;
+        gap: 2em;
+    }
+
+    figure img {
+        height: 195px;
+        width: 170px;
+    }
+
+    #ultima {
+        grid-column: auto;
+    }
+
+    #Amor {
+        height: 2.5em;
+        font-size: .8em;
+        text-align: center;
+        white-space: wrap;
+    }
+
+    @keyframes write {
+        0% {
+            width: 85dvw;
+        }
+    
+        45% {
+            width: 85dvw;
+        }
+    
+        65% {
+            width: 0;
+        }
+    
+        85% {
+            width: 0;
+        }
+    
+        100% {
+            width: 0;
+        }
+    
+    }
+
+    section {
+        margin-bottom: 2.5em;
+    }
+
+    section p {
+        width: 85dvw;
+        text-align: justify;
+    }
+
+    form p {
+        text-align: center;
+    }
+
+    form input {
+        margin-bottom: 3em;
+    }
+
 }

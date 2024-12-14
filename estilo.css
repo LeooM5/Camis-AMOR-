@@ -119,3 +119,41 @@ h2 {
         transform: scale(1.1);
     }
 }
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 850px) {
+    .quadrado, .circulo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .coracao {
+        width: 150px;
+        height: 150px;
+    }
+
+    h2 {
+        top: 70%;
+        text-align: center;
+    }
+
+    #amor {
+        text-align: center;
+        left: auto;
+        width: 95dvw;
+        top: 40%;
+    }
+
+    header {
+        height: 15dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    h2 {
+        width: 100dvw;
+    }
+
+}
